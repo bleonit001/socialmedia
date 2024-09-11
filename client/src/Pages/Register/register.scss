@@ -1,0 +1,83 @@
+.register {
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;  /* Vertically centers the card */
+    justify-content: center;  /* Horizontally centers the card */
+  //
+    .card {
+      width: 50%; /* Reduced the width to 30% */
+      display: flex;
+      flex-direction:row-reverse ;
+      background-color: white;
+      border-radius: 10px;
+      min-height: 300px; /* Reduced the min-height */
+      overflow: hidden;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for better visual focus */
+  
+      .left {
+        flex: 1;
+        background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+          url("https://images.pexels.com/photos/27576423/pexels-photo-27576423/free-photo-of-sea-path.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+            center;
+        background-size: cover;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: white;
+  
+        h1 {
+          font-size: 50px; /* Adjusted font size */
+          line-height: 50px;
+        }
+  
+        button {
+          width: 60%; /* Adjusted button width */
+          padding: 10px;
+          border: none;
+          background-color: white;
+          color: rebeccapurple;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+  
+      .right {
+        flex: 1;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+  
+        h1 {
+          color: #555;
+          font-size: 24px; /* Adjusted font size */
+        }
+  
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+  
+          input {
+            border: none;
+            border-bottom: 1px solid lightgray;
+            padding: 15px 10px; /* Adjusted padding */
+          }
+  
+          button {
+            width: 60%; /* Adjusted button width */
+            padding: 10px;
+            border: none;
+            background-color: #938eef;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  
