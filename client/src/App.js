@@ -17,9 +17,11 @@ function App() {
     return(
       <div>
         <NavBar/>
-        <div style={{display: "inline-flex"}}>
+        <div style={{display: "flex"}}>
           <LeftBar/>
+          <div style={{flex:6}}>
           <Outlet/>
+          </div>
           <RightBar/>
       </div>
       </div>

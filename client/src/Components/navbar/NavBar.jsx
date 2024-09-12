@@ -31,7 +31,7 @@ const NavBar = () => {
         <EmailOutlinedIcon/>
         <NotificationsOutlinedIcon/>
         <div className="user">
-          <img src="https://images.pexels.com/photos/21383563/pexels-photo-21383563/free-photo-of-dog-against-minarets-in-fog.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
+          <img src="https://images.pexels.com/photos/28011282/pexels-photo-28011282/free-photo-of-a-young-female-golden-retriever-poses-in-front-of-golden-ears-of-wheat-with-old-log-houses-in-an-open-air-museum-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=600" 
           alt="John Doe" />
           <span>John Doe</span>
         </div>
